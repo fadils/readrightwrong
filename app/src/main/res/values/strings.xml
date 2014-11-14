@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ReadRightWrong</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="right_button">RIGHT</string>
+    <string name="wrong_button">WRONG</string>
+    <string name="incorrect_toast">Incorrect!</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="question_oceans">The Pacific Ocean is larger than
+        the Atlantic Ocean.</string>
+    <string name="question_mideast">The Suez Canal connects the Red Sea
+    and the Indian Ocean.</string>
+    <string name="question_africa">The source of the Nile River is in Egypt.</string>
+    <string name="question_americas">The Amazon River is the longest river
+    in the Americas.</string>
+    <string name="question_asia">Lake Baikal is the world\'s oldest and deepest
+    freshwater lake.</string>
+    <string name="restart_game">Restart Game?</string>
+    <string name="zero_second">0</string>
+
+</resources>
