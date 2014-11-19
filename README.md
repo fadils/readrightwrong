@@ -1,0 +1,1 @@
+[](https://travis-ci.org/fadils/readrightwrong.svg?branch=master)
