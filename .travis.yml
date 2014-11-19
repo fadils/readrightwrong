@@ -17,10 +17,7 @@ before_script:
   - echo no | android create avd --force -n test -t $ANDROID_API_LEVEL --abi $ANDROID_ABI
   - emulator -avd test -no-skin -no-audio -no-window &
 
-# Set execution permission to avoid 'Permission denied' error with gradle 1.8+
-  # http://joerglenhard.wordpress.com/2013/10/01/using-travis-ci-with-gradle-wrapper/
-  - chmod +x gradlew
-
 script:
+  - chmod +x gradlew
   - ./wait_for_emulator
   - ./gradlew connectedCheck -PdisablePreDex
