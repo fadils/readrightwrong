@@ -19,7 +19,7 @@ before_script:
 
 # Set execution permission to avoid 'Permission denied' error with gradle 1.8+
   # http://joerglenhard.wordpress.com/2013/10/01/using-travis-ci-with-gradle-wrapper/
-  - chmod +x gradlew
+  - chmod +x wait_for_emulator
 
 script:
   - ./wait_for_emulator
