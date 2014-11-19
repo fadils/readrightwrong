@@ -1,1 +1,1 @@
-[](https://travis-ci.org/fadils/readrightwrong.svg?branch=master)
+[![Build Status](https://travis-ci.org/fadils/readrightwrong.svg?branch=master)](https://travis-ci.org/fadils/readrightwrong)
