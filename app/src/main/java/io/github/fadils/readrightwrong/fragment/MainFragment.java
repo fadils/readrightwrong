@@ -48,8 +48,6 @@ public class MainFragment extends Fragment implements OnClickListener {
     //for traversing question bank
     private int mCurrentIndex = 0;
 
-    public MainFragment() {}
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
